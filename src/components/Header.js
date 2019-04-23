@@ -154,20 +154,20 @@ class Header extends React.Component {
 	render() {
 		return(
 			<DesktopHeaderMain>
-			<DesktopNavWrap>
-			<DesktopNavContainer ref={this.primaryContainer}>
-				{menuData.map((item) => (
-					<DesktopNavList key={item.url} className="primary-items">
-						<DesktopNavLink
-							className="cts-primary-link"
-							href={item.url}>
-							{item.label}
-						</DesktopNavLink>
-					</DesktopNavList>
-				))}
-				{this.renderMoreItem()}
-			</DesktopNavContainer>
-			</DesktopNavWrap>
+				<DesktopNavWrap>
+					<DesktopNavContainer ref={this.primaryContainer}>
+						{menuData.map((item) => (
+							<DesktopNavList key={item.url} className="primary-items">
+								<DesktopNavLink
+									className="cts-primary-link"
+									href={item.url}>
+									{item.label}
+								</DesktopNavLink>
+							</DesktopNavList>
+						))}
+						{this.renderMoreItem()}
+					</DesktopNavContainer>
+				</DesktopNavWrap>
 			</DesktopHeaderMain>
 		)
 	}
