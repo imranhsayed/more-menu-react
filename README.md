@@ -1,6 +1,6 @@
 # :computer: More Menu
 
-A demo for display extra menu items dynamically in More menu ( React App )
+A demo for display extra menu items dynamically in More menu ( React App ).
 
 ## :video_camera: Menu Demo
 ![](menu-demo.gif)
